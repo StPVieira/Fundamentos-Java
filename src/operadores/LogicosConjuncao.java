@@ -16,6 +16,12 @@ public class LogicosConjuncao {
  
         System.out.println("Idade maior ou igual a 18? ");
         idade = ler.nextBoolean();
+        
+        resposta = idade && ingresso;
+        
+        System.out.println("Acesso? " + resposta);
+        
+        ler.close();
 	}
 
 }
